@@ -16,6 +16,7 @@ Crypto-Final-Project/
 ---
 
 ## ⚙️ How It Works
+
 1. The secret message is converted into binary
 2. Binary bits are stored in image pixel values
 3. A special end marker is used to detect message completion
@@ -24,6 +25,7 @@ Crypto-Final-Project/
 ---
 
 ## 🚀 Features
+
 - Hide text inside images
 - Extract hidden messages
 - Simple command-line interface
@@ -32,25 +34,25 @@ Crypto-Final-Project/
 ---
 
 ## 🛠 Requirements
+
 - Python 3.10+
 - Pillow library
 
 Install Pillow:
-```bash```
-pip install pillow
+```pip install pillow```
 
 ---
 
 ## ▶️ Usage
+
 1. Run the Program
-python main.py
 
 2. Choose an Option
-
 - Option 1: Hide a secret message inside an image
 - Option 2: Extract a hidden message from an image
+python main.py
 
-3️. Follow the Prompts
+3. Follow the Prompts
 
 - Enter image path
 - Enter secret message (for encoding)
