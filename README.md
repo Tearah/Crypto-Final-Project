@@ -1,5 +1,4 @@
 # Crypto-Final-Project
-<<<<<<< HEAD
 
 This project hides secret text inside digital images using image steganography. The purpose is to keep communication private by hiding the message itself so others do not notice it. This project is motivated by the need for privacy, data protection, and secure information sharing.
 
@@ -7,14 +6,12 @@ This project hides secret text inside digital images using image steganography. 
 
 ## 📂 Project Structure
 
-
 Crypto-Final-Project/
 ├── main.py
 ├── steg_encode.py
 ├── steg_decode.py
 ├── images/
 │ └── hidden_output.png
-
 
 ---
 
@@ -40,9 +37,12 @@ Crypto-Final-Project/
 
 Install Pillow:
 ```bash
+```
 pip install pillow
 
-▶️ Usage
+---
+
+## ▶️ Usage
 1️⃣ Run the Program
 python main.py
 
@@ -60,11 +60,15 @@ Enter secret message (for encoding)
 
 Enter output image name
 
-🎓 Academic Purpose
+---
+
+## 🎓 Academic Purpose
 
 This project was developed as part of a cryptography and security course to understand practical steganography techniques and hidden data communication.
 
-⚠️ Limitations
+---
+
+## ⚠️ Limitations
 
 No encryption applied to the message
 
@@ -72,7 +76,9 @@ Message size depends on image size
 
 Detectable using advanced steganalysis tools
 
-🔒 Future Improvements
+---
+
+## 🔒 Future Improvements
 
 Add encryption before embedding data
 
@@ -82,9 +88,10 @@ Multi-channel (RGB) encoding
 
 Graphical User Interface (GUI)
 
-📜 License
+---
+
+## 📜 License
 
 This project is open-source and intended for educational use.
-=======
-This project hides secret text inside digital images using image steganography. The purpose is to keep communication private by hiding the message itself so others do not notice it. This project is motivated by the need for privacy, data protection, and secure information sharing.
->>>>>>> 9a3bc53d6ae90ef2a5ab552695c91f550e9f7c41
+
+---
